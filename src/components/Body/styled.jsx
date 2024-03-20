@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Body = styled.section`
     background-color: #FEB706;
-    padding: 2em;
+    padding-bottom: 5em;
 
 `
 export const Titulo = styled.h2`
@@ -10,9 +10,13 @@ export const Titulo = styled.h2`
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    padding-bottom: 2em;
+    padding: 2em 0;
 `
-export const Cards = styled.div`
+export const Cards_container = styled.div`
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10em;
+  
+    
 `

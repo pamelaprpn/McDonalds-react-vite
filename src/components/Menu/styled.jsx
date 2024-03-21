@@ -24,19 +24,31 @@ export const Header = styled.header`
 
 export const Menu = styled.div`
     ${itemCentralizado}
-    gap: 20px;
+    gap: 30px;
 `
 
 export const NavApp = styled.div`
     ${itemCentralizado}
-    gap: 20px;
+    gap: 10px;
 `
 export const NavCart = styled.div`
     ${itemCentralizado}
-    gap: 20px;
+    gap: 10px;
     border: 1px solid #FFC72C;
     border-radius: 10px;
     background-color: #FFC72C;
     padding: 0.5em 1.25em;
 
+`
+
+export const TextNavApp = styled.p`
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+`
+
+export const TextNavCart = styled.p`
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
 `

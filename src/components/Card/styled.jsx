@@ -39,4 +39,6 @@ export const Button = styled.button`
     width: 162px;
     height: 41px;
     background-color: #FFBC0D;
+    font-weight: 400;
+    font-size: 20px;
 `

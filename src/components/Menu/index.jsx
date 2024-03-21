@@ -13,10 +13,10 @@ const Header = () => {
                 <S.Menu>
                     <S.NavApp>
                         <img src={app} alt='Logo app'/>
-                        <p>Baixe o App</p>
+                        <S.TextNavApp>Baixe o App</S.TextNavApp>
                     </S.NavApp>
                     <S.NavCart>
-                        <p>Peça seu Méqui</p>
+                        <S.TextNavCart>Peça seu Méqui</S.TextNavCart>
                         <img src={app_pedido} alt='Logo carrinho'/>
                     </S.NavCart>
                 </S.Menu>

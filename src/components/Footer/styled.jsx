@@ -21,3 +21,7 @@ export const ContainerMac = styled.div`
 export const ContainerPlay = styled.div`
     ${divCentralizada}
 `
+export const TextFooter = styled.p`
+    font-weight: 200;
+    font-size: 16px;
+`

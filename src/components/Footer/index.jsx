@@ -9,7 +9,7 @@ const Footer = () => {
             <S.ContainerFooter>
                 <S.ContainerMac>
                     <img src={logo} alt="Logo McDonalds"/>
-                    <p>© McDonald’s 2024</p>
+                    <S.TextFooter>© McDonald’s 2024</S.TextFooter>
                 </S.ContainerMac>
                 <S.ContainerPlay>
                     <img src={googlePlay} alt="Icone Google play"/>

@@ -12,11 +12,11 @@ export const Titulo = styled.h2`
     text-align: center;
     padding: 2em 0;
 `
-export const Cards_container = styled.div`
+export const CardsContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
   
     
 `

@@ -10,11 +10,11 @@ const Body = () => {
         <>
             <S.Body>
                 <S.Titulo>Promoção</S.Titulo>
-                <S.Cards_container>
+                <S.CardsContainer>
                     <Card image={sofa} texto='Que tal um #MéquiNoSofá?' />
                     <Card image={restaurante} texto='Venha conhecer nossa nova loja' />
                     <Card image={banner} texto='Confira as medidas que o Méqui adotou!' />
-                </S.Cards_container>
+                </S.CardsContainer>
             </S.Body>
         </>
     )

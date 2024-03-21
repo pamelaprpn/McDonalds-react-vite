@@ -8,6 +8,7 @@ export const Card = styled.div`
        
 `
 
+
 export const Image = styled.img`
     width: 100%;
     height: 9.75em;

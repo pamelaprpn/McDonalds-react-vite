@@ -18,7 +18,7 @@ const itemCentralizado = css`
 export const Header = styled.header`
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1em;
 
 `
 
@@ -37,6 +37,6 @@ export const NavCart = styled.div`
     border: 1px solid #FFC72C;
     border-radius: 10px;
     background-color: #FFC72C;
-    padding: 0 1em;
+    padding: 0.5em 1.25em;
 
 `

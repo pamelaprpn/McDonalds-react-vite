@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Main = () => {
 
-    const [item, setItem] = useState("")
+    const [item, setItem] = useState(bigMac)
     
 
     return(

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Body = styled.section`
     background-color: #FEB706;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 
 `
 export const Titulo = styled.h2`

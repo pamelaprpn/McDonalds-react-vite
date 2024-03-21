@@ -11,8 +11,8 @@ export const Card = styled.div`
 
 export const Image = styled.img`
     width: 100%;
-    height: 9.75em;
-    margin-bottom: 0;
+    position: relative;
+    bottom: -10px;
     //border-radius: 10px 10px 0 0;
 `
 
@@ -21,14 +21,17 @@ export const Info = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2em;
+    padding: 2em;
+    border-radius: 10px;
     
 `
 
 export const Title = styled.h3`
     font-weight: 700;
     font-size: 20px;
-    padding: 1em 2em;
+    padding-bottom: 1em;
+    text-align: center;
+    
 `
 export const Button = styled.button`
     border: 1px solid #FFBC0D;

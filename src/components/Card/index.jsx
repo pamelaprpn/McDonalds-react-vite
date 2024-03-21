@@ -4,7 +4,7 @@ const Card = (props) => {
     return(
         
             <S.Card>
-                <S.Image src={props.image} alt=''/>
+                <S.Image src={props.image} alt='Propaganda'/>
                 
                 <S.Info>
                     <S.Title>{props.texto}</S.Title>

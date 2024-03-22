@@ -1,5 +1,5 @@
 # McDonalds-react-vite
-Desafio Vai na Web - Projeto contruido em React + Vite </br> </br>
+Projeto contruido em React + Vite </br> </br>
 
 Conceitos e Tecnologias ultizados: </br>
 1 - React </br>

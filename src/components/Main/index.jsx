@@ -16,9 +16,9 @@ const Main = () => {
                 <S.Title>BATEU AQUELA <br/> <S.Destaque>#FOME</S.Destaque> DE <S.Destaque>MÉQUI</S.Destaque>?</S.Title>
             </S.TitleContainer>
             <S.Produtos>
-                <img onClick={() => {setItem(bigMac)}} src={bigMac} alt='Big Mac'/>
-                <img onClick={() => {setItem(batata)}} src={batata} alt='Batata'/>
-                <img onClick={() => (setItem(sorvete))} src={sorvete} alt='Sorvete'/>
+                <S.ImageProduto onClick={() => {setItem(bigMac)}} src={bigMac} alt='Big Mac'/>
+                <S.ImageProduto onClick={() => {setItem(batata)}} src={batata} alt='Batata'/>
+                <S.ImageProduto onClick={() => (setItem(sorvete))} src={sorvete} alt='Sorvete'/>
             </S.Produtos>
         </S.Main>
     )

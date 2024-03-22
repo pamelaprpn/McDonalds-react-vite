@@ -12,8 +12,8 @@ const Footer = () => {
                     <S.TextFooter>© McDonald’s 2024</S.TextFooter>
                 </S.ContainerMac>
                 <S.ContainerPlay>
-                    <img src={googlePlay} alt="Icone Google play"/>
-                    <img src={appStore} alt="Icone Apple Store"/>
+                    <S.ImagePlay src={googlePlay} alt="Icone Google play"/>
+                    <S.ImagePlay src={appStore} alt="Icone Apple Store"/>
                 </S.ContainerPlay>
             </S.ContainerFooter>
         </>

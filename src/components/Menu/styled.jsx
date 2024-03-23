@@ -55,11 +55,17 @@ export const NavCart = styled.div`
     background-color: #FFC72C;
     padding: 0.5em 1.25em;
 
-    @media (max-width: 430px) {
-        padding: 0.25em 0.75em;
+    &:hover {
+        background-color: #f11614;
     }
 
+    @media (max-width: 430px) {
+        padding: 0.25em 0.75em;
+        
+    }  
+
 `
+
 
 export const TextNavApp = styled.p`
     font-weight: 400;

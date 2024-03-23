@@ -5,7 +5,9 @@ export const Card = styled.div`
     border-radius: 10px;
     width: 17.5em;
 
-   
+    &:hover{
+        transform: translateY(-7px)
+    } 
        
 `
 
@@ -44,6 +46,10 @@ export const Button = styled.button`
     background-color: #FFBC0D;
     font-weight: 400;
     font-size: 20px;
+
+    &:hover {
+        background-color: #f11614;
+    }
 
     @media (max-width: 430px) {
         font-size: 15px;
